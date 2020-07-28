@@ -1,4 +1,4 @@
-from strategies.TFT import TFT
+from strategies.classics import *
 
 tft = TFT()
 
