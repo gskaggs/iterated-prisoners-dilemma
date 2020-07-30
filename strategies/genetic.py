@@ -2,6 +2,8 @@ from random import *
 CROSSOVER_RATE = 0.6
 
 class GENETIC():
+    observationToEncoding = {("C", "C"): 0, ("C", "D"): 1, ("D", "C"): 2, ("D", "D"): 3}
+
     @classmethod
     def from_parents(cls, parents):
         assert(len(parents) == 2)
@@ -32,8 +34,18 @@ class GENETIC():
     def __init__(self, history_len, chromosome=None):
         self.history_len = history_len
         self.chromosome_len = 4 ** (history_len)
+        self.history = 0
         if chromosome:
             self.chromosome = chromosome
         else:
             self.chromosome = [random.choice(["C", "D"]) for _ in range(self.chromosome_len)]
+
+    def next_action(self):
+        return self.chromosome[self.history]
+
+    def observe_actions(self, opponent, own):
+        self.history <<= 2
+        self.history |= GENETIC.observationToEncoding[(opponent, own)]
+        self.history &= (1 << (2 * self.history_len)) - 1
+        assert(self.history < self.chromosome_len)
                 
