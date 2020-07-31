@@ -33,7 +33,7 @@ class GENETIC():
                 if random.random() <= mutation_rate:
                     chromosome1[i] = "C" if chromosome1[i] == "D" else "D"
 
-        if debug: 
+        else: 
             print("Creating new chromosomes with")
             print("Parents: ", p0.chromosome, p1.chromosome, sep="\n")
             print("And resultant children: ", chromosome0, chromosome1, sep="\n")
