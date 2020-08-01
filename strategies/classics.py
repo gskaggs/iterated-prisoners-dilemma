@@ -1,6 +1,8 @@
 from random import *
 
 class ALLC():
+    name = "ALLC"
+
     def next_action(self):
         return "C"
 
@@ -8,6 +10,8 @@ class ALLC():
         return None
         
 class ALLD():
+    name = "ALLD"
+
     def next_action(self):
         return "D"
 
@@ -15,6 +19,8 @@ class ALLD():
         return None
 
 class RAND():
+    name = "RAND"
+
     def next_action(self):
         return random.choice(["C", "D"])
 
@@ -22,6 +28,8 @@ class RAND():
         return None
 
 class GRIM():
+    name = "GRIM"
+
     def __init__(self):
         self.triggered = False
 
@@ -34,6 +42,8 @@ class GRIM():
         self.triggered = self.triggered or opponent == "D"
 
 class TFT():
+    name = "TFT"
+
     def __init__(self):
         self.prev = "C"
 
@@ -44,6 +54,7 @@ class TFT():
         self.prev = opponent
 
 class CTFT():
+    name = "CTFT"
     def __init__(self):
         self.status = "content"
 
@@ -65,6 +76,8 @@ class CTFT():
             self.status = "content"
 
 class STFT():
+    name = "STFT"
+
     def __init__(self):
         self.prev = "D"
 
@@ -75,6 +88,8 @@ class STFT():
         self.prev = opponent
 
 class TFTT():
+    name = "TFTT"
+
     def __init__(self):
         self.prev = ["D", "D"]
 
@@ -88,6 +103,8 @@ class TFTT():
         self.prev[0] = opponent
 
 class PAVLOV():
+    name = "PAVLOV"
+
     def __init__(self):
         self.next= "C"
 
@@ -99,6 +116,8 @@ class PAVLOV():
             self.next = "C" if self.next == "D" else "D"
 
 class NET_NICE():
+    name = "NET_NICE"
+    
     def __init__(self):
         self.own_defects = 0
         self.opp_defects = 0
