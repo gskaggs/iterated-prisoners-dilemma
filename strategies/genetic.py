@@ -60,4 +60,7 @@ class GENETIC():
         self.history |= GENETIC.observationToEncoding[(opponent, own)]
         self.history &= (1 << (2 * self.history_len)) - 1
         assert(self.history < self.chromosome_len)
+
+    def reset(self):
+        self.history = 0
                 

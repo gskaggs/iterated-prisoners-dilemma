@@ -1,4 +1,4 @@
-from random import *
+import random
 
 class ALLC():
     name = "ALLC"
@@ -7,7 +7,10 @@ class ALLC():
         return "C"
 
     def observe_actions(self, opponent, own):
-        return None
+        pass
+
+    def reset(self):
+        pass
         
 class ALLD():
     name = "ALLD"
@@ -16,7 +19,10 @@ class ALLD():
         return "D"
 
     def observe_actions(self, opponent, own):
-        return None
+        pass
+    
+    def reset(self):
+        pass
 
 class RAND():
     name = "RAND"
@@ -25,7 +31,7 @@ class RAND():
         return random.choice(["C", "D"])
 
     def observe_actions(self, opponent, own):
-        return None
+        pass
 
 class GRIM():
     name = "GRIM"
@@ -38,8 +44,12 @@ class GRIM():
             return "D"
         else:
             return "C"
+    
     def observe_actions(self, opponent, own):
         self.triggered = self.triggered or opponent == "D"
+    
+    def reset(self):
+        self.triggered = False
 
 class TFT():
     name = "TFT"
@@ -52,6 +62,9 @@ class TFT():
 
     def observe_actions(self, opponent, own):
         self.prev = opponent
+
+    def reset(self):
+        self.prev = "C"
 
 class CTFT():
     name = "CTFT"
@@ -74,6 +87,9 @@ class CTFT():
             self.status = "content"
         elif self.status == "provoked" and opponent == "C":
             self.status = "content"
+    
+    def reset(self):
+        self.status = "content"
 
 class STFT():
     name = "STFT"
@@ -86,6 +102,9 @@ class STFT():
 
     def observe_actions(self, opponent, own):
         self.prev = opponent
+
+    def reset(self):
+        self.prev = "D"
 
 class TFTT():
     name = "TFTT"
@@ -102,11 +121,14 @@ class TFTT():
         self.prev[1] = self.prev[0]
         self.prev[0] = opponent
 
+    def reset(self):
+        self.prev = ["D", "D"]
+
 class PAVLOV():
     name = "PAVLOV"
 
     def __init__(self):
-        self.next= "C"
+        self.next = "C"
 
     def next_action(self):
         return self.next
@@ -115,9 +137,12 @@ class PAVLOV():
         if opponent == "D":
             self.next = "C" if self.next == "D" else "D"
 
+    def reset(self):
+        self.next = "C"
+
 class NET_NICE():
     name = "NET_NICE"
-    
+
     def __init__(self):
         self.own_defects = 0
         self.opp_defects = 0
@@ -130,4 +155,7 @@ class NET_NICE():
             self.opp_defects += 1
         if own == "D":
             self.own_defects += 1
-        
+
+    def reset(self):
+        self.own_defects = 0
+        self.opp_defects = 0
