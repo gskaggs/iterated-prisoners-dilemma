@@ -2,6 +2,7 @@ import random
 CROSSOVER_RATE = 0.6
 
 class GENETIC():
+    name = "GENETIC"
     observationToEncoding = {("C", "C"): 0, ("C", "D"): 1, ("D", "C"): 2, ("D", "D"): 3}
 
     @classmethod
