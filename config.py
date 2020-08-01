@@ -1,4 +1,5 @@
 # Updates continuation probability
+# A higher lambda means increased periods per episode
 LAMBDA = 0.995
 
 # Number of episodes per iterative prisoner's dilemma encounter
