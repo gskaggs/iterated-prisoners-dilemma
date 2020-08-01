@@ -21,6 +21,7 @@ def IPD(agent0, agent1, debug=False):
 
         while random.random() <= continue_prob:
             continue_prob *= LAMBDA
+            
             period_count += 1
 
             action0 = agent0.next_action()
@@ -31,6 +32,7 @@ def IPD(agent0, agent1, debug=False):
 
             agent0.observe_actions(action1, action0)
             agent1.observe_actions(action0, action1)
+        
         period_counts.append(period_count)
 
     if debug:

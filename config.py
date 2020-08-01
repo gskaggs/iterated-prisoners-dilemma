@@ -1,5 +1,5 @@
 # Updates continuation probability
-LAMBDA = 0.95
+LAMBDA = 0.995
 
 # Number of episodes per iterative prisoner's dilemma encounter
 EPISODES = 200 
