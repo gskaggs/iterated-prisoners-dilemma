@@ -1,12 +1,23 @@
 from strategies.classics import *
 from strategies.genetic import GENETIC
-from config import LAMBDA, EPISODES, T, R, P, S
+from config import LAMBDA, EPISODES, T, R, P, S, NUM_GENERATIONS, GENERATION_SIZE
 
 classics = [ALLC(), ALLD(), RAND(), GRIM(), TFT(), CTFT(), STFT(), TFTT(), PAVLOV(), NET_NICE()]
+genetics = [GENETIC(2) for _ in range(GENERATION_SIZE)]
 
-def reset(strategies):
-    for strategy in strategies:
-        strategy.reset()
+def reset_scores(strategies):
+    for agent in strategies:
+        agent.score = 0
+
+def print_rankings(strategies):
+    # Sort reverse order of score
+    sorted_strategies = sorted(strategies, key=lambda agent: -1 * agent.score)
+
+    count = 1
+    for agent in sorted_strategies:
+        print(count, agent.name, agent.score)
+        count += 1
+    print()
 
 # Returns the result of iterative prisoner's delima between two agents
 def IPD(agent0, agent1, debug=False):
@@ -32,7 +43,7 @@ def IPD(agent0, agent1, debug=False):
 
             agent0.observe_actions(action1, action0)
             agent1.observe_actions(action0, action1)
-        
+
         period_counts.append(period_count)
 
     if debug:
@@ -45,19 +56,80 @@ def IPD(agent0, agent1, debug=False):
     return tuple(score)
 
 def round_robin(strategies, debug=False):
+    reset_scores(strategies)
     for agent0 in strategies:
         for agent1 in strategies:
             agent0.reset(), agent1.reset()
             score = IPD(agent0, agent1, debug=debug) 
             agent0.score += score[0]
             agent1.score += score[1]
-    
-    # Sort reverse order of score
-    strategies.sort(key=lambda agent: -1 * agent.score)
 
+    print("*** End of round robin ***")
+    print_rankings(strategies)
+
+def test_fitness(strategies, genetic, debug=False):
+    strategies.append(genetic)
+    genetic.score = 0
+    for agent in strategies:
+        agent.reset(), genetic.reset()
+        score = IPD(agent, genetic, debug=debug) 
+        genetic.score += score[1]
+
+    strategies.pop()
     if debug:
-        print("*** End of round robin ***")
-        for agent in strategies:
-            print(agent.name, agent.score)
+        print("*** End of fitness test ***")
 
-round_robin(classics, debug=True)
+def new_generation(strategies):
+    assert(len(strategies) == GENERATION_SIZE)
+    cumulative_points = []
+    count = 0
+    for agent in strategies:
+        assert(agent.name == "GENETIC")
+        count += agent.score
+        cumulative_points.append(count)
+
+    result = []
+    for _ in range(GENERATION_SIZE // 2):
+        parents = random.choices(strategies, cum_weights=cumulative_points, k=2)
+        children = GENETIC.from_parents(parents)
+        result.extend(children)
+    
+    # In case GENERATION_SIZE is odd
+    if len(result) < GENERATION_SIZE:
+        parents = random.choices(strategies, cum_weights=cumulative_points, k=2)
+        children = GENETIC.from_parents(parents)
+        result.append(children[0])
+
+    assert(len(result) == GENERATION_SIZE)
+
+    return result
+
+def genetic_evolution(classics, genetics, debug=False):
+    for generation_count in range(NUM_GENERATIONS):
+        for agent in genetics:
+            assert(agent.name == "GENETIC")
+            test_fitness(classics, agent)
+        
+        if debug:
+            print("Generation", generation_count + 1)
+            print("Raw:")
+            for count in range(GENERATION_SIZE):
+                print(count + 1, genetics[count].score)
+            print()
+            print("Sorted:")
+            print_rankings(genetics)
+
+        genetics = new_generation(genetics)
+    
+    # Print results
+    strategies = classics
+    count = 1
+    for agent in genetics:
+        print("*** GENETIC", count, "***")
+        strategies.append(agent)
+        round_robin(strategies)
+        strategies.pop()
+        count += 1
+
+#round_robin(classics, debug=True)
+genetic_evolution(classics, genetics, debug=True)
