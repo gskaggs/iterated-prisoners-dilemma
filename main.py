@@ -1,6 +1,7 @@
 from strategies.classics import *
 from strategies.genetic import GENETIC
-from config import LAMBDA, EPISODES, T, R, P, S, NUM_GENERATIONS, GENERATION_SIZE
+from strategies.genetic_config import  NUM_GENERATIONS, GENERATION_SIZE
+from config import LAMBDA, EPISODES, T, R, P, S
 
 classics = [ALLC(), ALLD(), RAND(), GRIM(), TFT(), CTFT(), STFT(), TFTT(), PAVLOV(), NET_NICE()]
 genetics = [GENETIC(2) for _ in range(GENERATION_SIZE)]

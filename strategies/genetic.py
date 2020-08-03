@@ -1,5 +1,5 @@
 import random
-CROSSOVER_RATE = 0.6
+from genetic_config import CROSSOVER_RATE
 
 class GENETIC():
     name = "GENETIC"
