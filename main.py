@@ -1,16 +1,16 @@
 from strategies.classics import *
 from strategies.genetic import GENETIC
-from strategies.genetic_config import  NUM_GENERATIONS, GENERATION_SIZE, CROSSOVER_RATE
+from strategies.genetic_config import  NUM_GENERATIONS, GENERATION_SIZE, HISTORY_LEN, CROSSOVER_RATE
 from tourney_config import LAMBDA, EPISODES, T, R, P, S
 
 print("Genetic Config:")
-print("Number of generations:", NUM_GENERATIONS, "| Generation size:", GENERATION_SIZE, "| Crossover rate:", CROSSOVER_RATE)
+print("Number of generations:", NUM_GENERATIONS, "| Generation size:", GENERATION_SIZE, "| Crossover rate:", CROSSOVER_RATE, "| History length", HISTORY_LEN)
 print("\nTournanment Config:")
 print("LAMBDA:", LAMBDA, "| Episodes:", EPISODES, "| T R P S:", T, R, P, S)
 print()
 
 classics = [ALLC(), ALLD(), RAND(), GRIM(), TFT(), CTFT(), STFT(), TFTT(), PAVLOV(), NET_NICE()]
-genetics = [GENETIC(2) for _ in range(GENERATION_SIZE)]
+genetics = [GENETIC(HISTORY_LEN) for _ in range(GENERATION_SIZE)]
 
 def reset_scores(strategies):
     for agent in strategies:
