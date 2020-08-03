@@ -1,7 +1,13 @@
 from strategies.classics import *
 from strategies.genetic import GENETIC
-from strategies.genetic_config import  NUM_GENERATIONS, GENERATION_SIZE
-from config import LAMBDA, EPISODES, T, R, P, S
+from strategies.genetic_config import  NUM_GENERATIONS, GENERATION_SIZE, CROSSOVER_RATE
+from tourney_config import LAMBDA, EPISODES, T, R, P, S
+
+print("Genetic Config:")
+print("Number of generations:", NUM_GENERATIONS, "| Generation size:", GENERATION_SIZE, "| Crossover rate:", CROSSOVER_RATE)
+print("\nTournanment Config:")
+print("LAMBDA:", LAMBDA, "| Episodes:", EPISODES, "| T R P S:", T, R, P, S)
+print()
 
 classics = [ALLC(), ALLD(), RAND(), GRIM(), TFT(), CTFT(), STFT(), TFTT(), PAVLOV(), NET_NICE()]
 genetics = [GENETIC(2) for _ in range(GENERATION_SIZE)]
@@ -106,6 +112,8 @@ def new_generation(strategies):
     return result
 
 def genetic_evolution(classics, genetics, debug=False):
+    if debug:
+        print("Beginning genetic evolution\n")
     for generation_count in range(NUM_GENERATIONS):
         for agent in genetics:
             assert(agent.name == "GENETIC")
@@ -126,7 +134,8 @@ def genetic_evolution(classics, genetics, debug=False):
     strategies = classics
     count = 1
     for agent in genetics:
-        print("*** GENETIC", count, "***")
+        print("*** GENETIC", count, "***\n")
+        print("Chromosome:", agent.chromosome, "\n")
         strategies.append(agent)
         round_robin(strategies)
         strategies.pop()

@@ -1,5 +1,5 @@
 import random
-from genetic_config import CROSSOVER_RATE
+from strategies.genetic_config import CROSSOVER_RATE
 
 class GENETIC():
     name = "GENETIC"

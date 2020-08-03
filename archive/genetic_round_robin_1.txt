@@ -1,0 +1,168 @@
+Genetic Config:
+Number of generations: 5 | Generation size: 5 | Crossover rate: 0.6
+
+Tournanment Config:
+LAMBDA: 0.995 | Episodes: 200 | T R P S: 2 1 0 -1
+
+Beginning genetic evolution
+
+Generation 1
+Raw:
+1 11630
+2 25961
+3 26113
+4 10893
+5 7401
+
+Sorted:
+1 GENETIC 26113
+2 GENETIC 25961
+3 GENETIC 11630
+4 GENETIC 10893
+5 GENETIC 7401
+
+Generation 2
+Raw:
+1 25431
+2 12145
+3 11003
+4 20424
+5 25541
+
+Sorted:
+1 GENETIC 25541
+2 GENETIC 25431
+3 GENETIC 20424
+4 GENETIC 12145
+5 GENETIC 11003
+
+Generation 3
+Raw:
+1 12032
+2 27052
+3 27003
+4 26895
+5 16649
+
+Sorted:
+1 GENETIC 27052
+2 GENETIC 27003
+3 GENETIC 26895
+4 GENETIC 16649
+5 GENETIC 12032
+
+Generation 4
+Raw:
+1 26213
+2 26806
+3 25893
+4 27047
+5 29515
+
+Sorted:
+1 GENETIC 29515
+2 GENETIC 27047
+3 GENETIC 26806
+4 GENETIC 26213
+5 GENETIC 25893
+
+Generation 5
+Raw:
+1 30270
+2 26840
+3 26318
+4 31030
+5 27018
+
+Sorted:
+1 GENETIC 31030
+2 GENETIC 30270
+3 GENETIC 27018
+4 GENETIC 26840
+5 GENETIC 26318
+
+*** GENETIC 1 ***
+
+Chromosome: ['C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D'] 
+
+*** End of round robin ***
+1 CTFT 61562
+2 NET_NICE 60619
+3 TFT 60610
+4 PAVLOV 54351
+5 GRIM 54156
+6 ALLC 52967
+7 GENETIC 52742
+8 ALLD 39800
+9 RAND 35676
+10 TFTT 34783
+11 STFT 26056
+
+*** GENETIC 2 ***
+
+Chromosome: ['C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D'] 
+
+*** End of round robin ***
+1 GENETIC 63765
+2 NET_NICE 60924
+3 CTFT 60479
+4 TFT 60061
+5 GRIM 54374
+6 PAVLOV 53630
+7 ALLC 53135
+8 RAND 31959
+9 STFT 28715
+10 TFTT 28238
+11 ALLD 26950
+
+*** GENETIC 3 ***
+
+Chromosome: ['C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D'] 
+
+*** End of round robin ***
+1 CTFT 60591
+2 TFT 60373
+3 GENETIC 59782
+4 NET_NICE 59544
+5 PAVLOV 54389
+6 ALLC 54105
+7 GRIM 53251
+8 TFTT 35286
+9 RAND 33507
+10 ALLD 27290
+11 STFT 25827
+
+*** GENETIC 4 ***
+
+Chromosome: ['C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D'] 
+
+*** End of round robin ***
+1 TFT 60259
+2 NET_NICE 60126
+3 CTFT 60077
+4 GENETIC 54617
+5 PAVLOV 54310
+6 GRIM 53495
+7 ALLC 52417
+8 ALLD 39494
+9 TFTT 34949
+10 RAND 32800
+11 STFT 25276
+
+*** GENETIC 5 ***
+
+Chromosome: ['C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C'] 
+
+*** End of round robin ***
+1 NET_NICE 60262
+2 CTFT 60183
+3 TFT 59468
+4 GRIM 54047
+5 PAVLOV 54037
+6 ALLC 53674
+7 GENETIC 52374
+8 ALLD 40852
+9 RAND 40687
+10 TFTT 34552
+11 STFT 29559
+
