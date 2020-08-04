@@ -1,0 +1,743 @@
+Genetic Config:
+Number of generations: 2 | Generation size: 5 | Crossover rate: 0.6 | History length 2
+
+Tournanment Config:
+LAMBDA: 0.999 | Episodes: 200 | T R P S: 2 1 0 -1
+
+Beginning cultural evolution
+
+End of cultural evolution
+Encounter between ALLC and ALLC
+Number of episodes: 200
+Average period count: 41.06
+Score: 8212 8212
+
+Encounter between ALLC and ALLD
+Number of episodes: 200
+Average period count: 39.86
+Score: -7972 15944
+
+Encounter between ALLC and RAND
+Number of episodes: 200
+Average period count: 39.245
+Score: 7 11770
+
+Encounter between ALLC and GRIM
+Number of episodes: 200
+Average period count: 38.025
+Score: 7605 7605
+
+Encounter between ALLC and TFT
+Number of episodes: 200
+Average period count: 37.755
+Score: 7551 7551
+
+Encounter between ALLC and CTFT
+Number of episodes: 200
+Average period count: 37.985
+Score: 7597 7597
+
+Encounter between ALLC and STFT
+Number of episodes: 200
+Average period count: 37.895
+Score: 7577 7580
+
+Encounter between ALLC and TFTT
+Number of episodes: 200
+Average period count: 38.53
+Score: 7704 7707
+
+Encounter between ALLC and PAVLOV
+Number of episodes: 200
+Average period count: 39.865
+Score: 7973 7973
+
+Encounter between ALLC and NET_NICE
+Number of episodes: 200
+Average period count: 36.42
+Score: 7284 7284
+
+Encounter between ALLC and GENETIC 1
+Number of episodes: 200
+Average period count: 38.49
+Score: 7698 7698
+
+Encounter between ALLC and GENETIC 2
+Number of episodes: 200
+Average period count: 38.485
+Score: 7697 7697
+
+Encounter between ALLD and ALLC
+Number of episodes: 200
+Average period count: 38.945
+Score: 15578 -7789
+
+Encounter between ALLD and ALLD
+Number of episodes: 200
+Average period count: 40.955
+Score: 0 0
+
+Encounter between ALLD and RAND
+Number of episodes: 200
+Average period count: 38.46
+Score: 7684 -3842
+
+Encounter between ALLD and GRIM
+Number of episodes: 200
+Average period count: 38.01
+Score: 2 -1
+
+Encounter between ALLD and TFT
+Number of episodes: 200
+Average period count: 40.095
+Score: 2 -1
+
+Encounter between ALLD and CTFT
+Number of episodes: 200
+Average period count: 38.845
+Score: 2 -1
+
+Encounter between ALLD and STFT
+Number of episodes: 200
+Average period count: 39.15
+Score: 0 0
+
+Encounter between ALLD and TFTT
+Number of episodes: 200
+Average period count: 41.005
+Score: 0 0
+
+Encounter between ALLD and PAVLOV
+Number of episodes: 200
+Average period count: 39.6
+Score: 7920 -3960
+
+Encounter between ALLD and NET_NICE
+Number of episodes: 200
+Average period count: 35.445
+Score: 2 -1
+
+Encounter between ALLD and GENETIC 1
+Number of episodes: 200
+Average period count: 38.605
+Score: 2 -1
+
+Encounter between ALLD and GENETIC 2
+Number of episodes: 200
+Average period count: 39.265
+Score: 5236 -2618
+
+Encounter between RAND and ALLC
+Number of episodes: 200
+Average period count: 40.05
+Score: 12017 -4
+
+Encounter between RAND and ALLD
+Number of episodes: 200
+Average period count: 39.035
+Score: -3937 7874
+
+Encounter between RAND and RAND
+Number of episodes: 200
+Average period count: 38.27
+Score: 3893 3800
+
+Encounter between RAND and GRIM
+Number of episodes: 200
+Average period count: 37.82
+Score: -3816 7653
+
+Encounter between RAND and TFT
+Number of episodes: 200
+Average period count: 39.21
+Score: 3865 3862
+
+Encounter between RAND and CTFT
+Number of episodes: 200
+Average period count: 40.305
+Score: 4004 4001
+
+Encounter between RAND and STFT
+Number of episodes: 200
+Average period count: 36.54
+Score: 3684 3687
+
+Encounter between RAND and TFTT
+Number of episodes: 200
+Average period count: 41.98
+Score: 8333 2060
+
+Encounter between RAND and PAVLOV
+Number of episodes: 200
+Average period count: 39.145
+Score: 3723 4041
+
+Encounter between RAND and NET_NICE
+Number of episodes: 200
+Average period count: 39.67
+Score: 3955 3955
+
+Encounter between RAND and GENETIC 1
+Number of episodes: 200
+Average period count: 37.775
+Score: 3796 3796
+
+Encounter between RAND and GENETIC 2
+Number of episodes: 200
+Average period count: 40.3
+Score: 5136 3486
+
+Encounter between GRIM and ALLC
+Number of episodes: 200
+Average period count: 38.1
+Score: 7620 7620
+
+Encounter between GRIM and ALLD
+Number of episodes: 200
+Average period count: 39.43
+Score: -1 2
+
+Encounter between GRIM and RAND
+Number of episodes: 200
+Average period count: 40.13
+Score: 8005 -4001
+
+Encounter between GRIM and GRIM
+Number of episodes: 200
+Average period count: 37.715
+Score: 7543 7543
+
+Encounter between GRIM and TFT
+Number of episodes: 200
+Average period count: 36.55
+Score: 7310 7310
+
+Encounter between GRIM and CTFT
+Number of episodes: 200
+Average period count: 37.03
+Score: 7406 7406
+
+Encounter between GRIM and STFT
+Number of episodes: 200
+Average period count: 38.725
+Score: 1 1
+
+Encounter between GRIM and TFTT
+Number of episodes: 200
+Average period count: 37.36
+Score: 3 0
+
+Encounter between GRIM and PAVLOV
+Number of episodes: 200
+Average period count: 35.305
+Score: 7061 7061
+
+Encounter between GRIM and NET_NICE
+Number of episodes: 200
+Average period count: 41.13
+Score: 8226 8226
+
+Encounter between GRIM and GENETIC 1
+Number of episodes: 200
+Average period count: 35.63
+Score: 7126 7126
+
+Encounter between GRIM and GENETIC 2
+Number of episodes: 200
+Average period count: 39.87
+Score: 7974 7974
+
+Encounter between TFT and ALLC
+Number of episodes: 200
+Average period count: 37.385
+Score: 7477 7477
+
+Encounter between TFT and ALLD
+Number of episodes: 200
+Average period count: 40.465
+Score: -1 2
+
+Encounter between TFT and RAND
+Number of episodes: 200
+Average period count: 36.305
+Score: 3590 3593
+
+Encounter between TFT and GRIM
+Number of episodes: 200
+Average period count: 40.23
+Score: 8046 8046
+
+Encounter between TFT and TFT
+Number of episodes: 200
+Average period count: 36.665
+Score: 7333 7333
+
+Encounter between TFT and CTFT
+Number of episodes: 200
+Average period count: 37.185
+Score: 7437 7437
+
+Encounter between TFT and STFT
+Number of episodes: 200
+Average period count: 40.615
+Score: 4060 4063
+
+Encounter between TFT and TFTT
+Number of episodes: 200
+Average period count: 35.015
+Score: 7002 7002
+
+Encounter between TFT and PAVLOV
+Number of episodes: 200
+Average period count: 39.775
+Score: 7955 7955
+
+Encounter between TFT and NET_NICE
+Number of episodes: 200
+Average period count: 40.685
+Score: 8137 8137
+
+Encounter between TFT and GENETIC 1
+Number of episodes: 200
+Average period count: 40.125
+Score: 8025 8025
+
+Encounter between TFT and GENETIC 2
+Number of episodes: 200
+Average period count: 37.535
+Score: 7507 7507
+
+Encounter between CTFT and ALLC
+Number of episodes: 200
+Average period count: 37.275
+Score: 7455 7455
+
+Encounter between CTFT and ALLD
+Number of episodes: 200
+Average period count: 39.5
+Score: -1 2
+
+Encounter between CTFT and RAND
+Number of episodes: 200
+Average period count: 37.225
+Score: 3685 3688
+
+Encounter between CTFT and GRIM
+Number of episodes: 200
+Average period count: 38.605
+Score: 7721 7721
+
+Encounter between CTFT and TFT
+Number of episodes: 200
+Average period count: 40.64
+Score: 8128 8128
+
+Encounter between CTFT and CTFT
+Number of episodes: 200
+Average period count: 36.435
+Score: 7287 7287
+
+Encounter between CTFT and STFT
+Number of episodes: 200
+Average period count: 39.64
+Score: 3964 3964
+
+Encounter between CTFT and TFTT
+Number of episodes: 200
+Average period count: 36.95
+Score: 7389 7389
+
+Encounter between CTFT and PAVLOV
+Number of episodes: 200
+Average period count: 37.125
+Score: 7425 7425
+
+Encounter between CTFT and NET_NICE
+Number of episodes: 200
+Average period count: 37.425
+Score: 7485 7485
+
+Encounter between CTFT and GENETIC 1
+Number of episodes: 200
+Average period count: 37.115
+Score: 7423 7423
+
+Encounter between CTFT and GENETIC 2
+Number of episodes: 200
+Average period count: 40.315
+Score: 8063 8063
+
+Encounter between STFT and ALLC
+Number of episodes: 200
+Average period count: 38.065
+Score: 7614 7611
+
+Encounter between STFT and ALLD
+Number of episodes: 200
+Average period count: 40.755
+Score: 0 0
+
+Encounter between STFT and RAND
+Number of episodes: 200
+Average period count: 40.605
+Score: 4088 4085
+
+Encounter between STFT and GRIM
+Number of episodes: 200
+Average period count: 39.165
+Score: 1 1
+
+Encounter between STFT and TFT
+Number of episodes: 200
+Average period count: 38.03
+Score: 3803 3803
+
+Encounter between STFT and CTFT
+Number of episodes: 200
+Average period count: 38.345
+Score: 3836 3833
+
+Encounter between STFT and STFT
+Number of episodes: 200
+Average period count: 37.75
+Score: 0 0
+
+Encounter between STFT and TFTT
+Number of episodes: 200
+Average period count: 39.315
+Score: 0 0
+
+Encounter between STFT and PAVLOV
+Number of episodes: 200
+Average period count: 38.64
+Score: 2576 2576
+
+Encounter between STFT and NET_NICE
+Number of episodes: 200
+Average period count: 38.245
+Score: 3826 3823
+
+Encounter between STFT and GENETIC 1
+Number of episodes: 200
+Average period count: 36.64
+Score: 3664 3664
+
+Encounter between STFT and GENETIC 2
+Number of episodes: 200
+Average period count: 37.415
+Score: 4990 4987
+
+Encounter between TFTT and ALLC
+Number of episodes: 200
+Average period count: 39.68
+Score: 7937 7934
+
+Encounter between TFTT and ALLD
+Number of episodes: 200
+Average period count: 37.685
+Score: 0 0
+
+Encounter between TFTT and RAND
+Number of episodes: 200
+Average period count: 36.64
+Score: 1892 7343
+
+Encounter between TFTT and GRIM
+Number of episodes: 200
+Average period count: 38.895
+Score: 0 3
+
+Encounter between TFTT and TFT
+Number of episodes: 200
+Average period count: 40.22
+Score: 8043 8043
+
+Encounter between TFTT and CTFT
+Number of episodes: 200
+Average period count: 37.96
+Score: 7591 7591
+
+Encounter between TFTT and STFT
+Number of episodes: 200
+Average period count: 37.465
+Score: 0 0
+
+Encounter between TFTT and TFTT
+Number of episodes: 200
+Average period count: 38.505
+Score: 0 0
+
+Encounter between TFTT and PAVLOV
+Number of episodes: 200
+Average period count: 38.955
+Score: 0 5844
+
+Encounter between TFTT and NET_NICE
+Number of episodes: 200
+Average period count: 39.9
+Score: 7979 7979
+
+Encounter between TFTT and GENETIC 1
+Number of episodes: 200
+Average period count: 40.835
+Score: 8166 8166
+
+Encounter between TFTT and GENETIC 2
+Number of episodes: 200
+Average period count: 39.99
+Score: 1 11995
+
+Encounter between PAVLOV and ALLC
+Number of episodes: 200
+Average period count: 37.42
+Score: 7484 7484
+
+Encounter between PAVLOV and ALLD
+Number of episodes: 200
+Average period count: 39.2
+Score: -3920 7840
+
+Encounter between PAVLOV and RAND
+Number of episodes: 200
+Average period count: 36.555
+Score: 3590 3707
+
+Encounter between PAVLOV and GRIM
+Number of episodes: 200
+Average period count: 39.725
+Score: 7945 7945
+
+Encounter between PAVLOV and TFT
+Number of episodes: 200
+Average period count: 37.415
+Score: 7483 7483
+
+Encounter between PAVLOV and CTFT
+Number of episodes: 200
+Average period count: 38.18
+Score: 7636 7636
+
+Encounter between PAVLOV and STFT
+Number of episodes: 200
+Average period count: 38.65
+Score: 2577 2577
+
+Encounter between PAVLOV and TFTT
+Number of episodes: 200
+Average period count: 37.915
+Score: 5688 0
+
+Encounter between PAVLOV and PAVLOV
+Number of episodes: 200
+Average period count: 38.465
+Score: 7693 7693
+
+Encounter between PAVLOV and NET_NICE
+Number of episodes: 200
+Average period count: 38.365
+Score: 7673 7673
+
+Encounter between PAVLOV and GENETIC 1
+Number of episodes: 200
+Average period count: 38.915
+Score: 7783 7783
+
+Encounter between PAVLOV and GENETIC 2
+Number of episodes: 200
+Average period count: 38.715
+Score: 7743 7743
+
+Encounter between NET_NICE and ALLC
+Number of episodes: 200
+Average period count: 38.415
+Score: 7683 7683
+
+Encounter between NET_NICE and ALLD
+Number of episodes: 200
+Average period count: 37.345
+Score: -1 2
+
+Encounter between NET_NICE and RAND
+Number of episodes: 200
+Average period count: 39.615
+Score: 3941 3941
+
+Encounter between NET_NICE and GRIM
+Number of episodes: 200
+Average period count: 39.41
+Score: 7882 7882
+
+Encounter between NET_NICE and TFT
+Number of episodes: 200
+Average period count: 36.86
+Score: 7372 7372
+
+Encounter between NET_NICE and CTFT
+Number of episodes: 200
+Average period count: 39.195
+Score: 7839 7839
+
+Encounter between NET_NICE and STFT
+Number of episodes: 200
+Average period count: 39.35
+Score: 3935 3935
+
+Encounter between NET_NICE and TFTT
+Number of episodes: 200
+Average period count: 36.1
+Score: 7219 7219
+
+Encounter between NET_NICE and PAVLOV
+Number of episodes: 200
+Average period count: 39.93
+Score: 7986 7986
+
+Encounter between NET_NICE and NET_NICE
+Number of episodes: 200
+Average period count: 38.245
+Score: 7649 7649
+
+Encounter between NET_NICE and GENETIC 1
+Number of episodes: 200
+Average period count: 37.71
+Score: 7542 7542
+
+Encounter between NET_NICE and GENETIC 2
+Number of episodes: 200
+Average period count: 39.545
+Score: 7909 7909
+
+Encounter between GENETIC 1 and ALLC
+Number of episodes: 200
+Average period count: 40.54
+Score: 8108 8108
+
+Encounter between GENETIC 1 and ALLD
+Number of episodes: 200
+Average period count: 36.4
+Score: -1 2
+
+Encounter between GENETIC 1 and RAND
+Number of episodes: 200
+Average period count: 35.86
+Score: 3611 3614
+
+Encounter between GENETIC 1 and GRIM
+Number of episodes: 200
+Average period count: 39.455
+Score: 7891 7891
+
+Encounter between GENETIC 1 and TFT
+Number of episodes: 200
+Average period count: 39.43
+Score: 7886 7886
+
+Encounter between GENETIC 1 and CTFT
+Number of episodes: 200
+Average period count: 38.29
+Score: 7658 7658
+
+Encounter between GENETIC 1 and STFT
+Number of episodes: 200
+Average period count: 38.5
+Score: 3850 3850
+
+Encounter between GENETIC 1 and TFTT
+Number of episodes: 200
+Average period count: 37.44
+Score: 7487 7487
+
+Encounter between GENETIC 1 and PAVLOV
+Number of episodes: 200
+Average period count: 38.44
+Score: 7688 7688
+
+Encounter between GENETIC 1 and NET_NICE
+Number of episodes: 200
+Average period count: 39.44
+Score: 7888 7888
+
+Encounter between GENETIC 1 and GENETIC 1
+Number of episodes: 200
+Average period count: 41.3
+Score: 8260 8260
+
+Encounter between GENETIC 1 and GENETIC 2
+Number of episodes: 200
+Average period count: 39.825
+Score: 7965 7965
+
+Encounter between GENETIC 2 and ALLC
+Number of episodes: 200
+Average period count: 37.94
+Score: 7588 7588
+
+Encounter between GENETIC 2 and ALLD
+Number of episodes: 200
+Average period count: 41.555
+Score: -2771 5542
+
+Encounter between GENETIC 2 and RAND
+Number of episodes: 200
+Average period count: 36.77
+Score: 3185 4730
+
+Encounter between GENETIC 2 and GRIM
+Number of episodes: 200
+Average period count: 38.51
+Score: 7702 7702
+
+Encounter between GENETIC 2 and TFT
+Number of episodes: 200
+Average period count: 37.85
+Score: 7570 7570
+
+Encounter between GENETIC 2 and CTFT
+Number of episodes: 200
+Average period count: 38.015
+Score: 7603 7603
+
+Encounter between GENETIC 2 and STFT
+Number of episodes: 200
+Average period count: 40.225
+Score: 5363 5363
+
+Encounter between GENETIC 2 and TFTT
+Number of episodes: 200
+Average period count: 39.4
+Score: 11818 1
+
+Encounter between GENETIC 2 and PAVLOV
+Number of episodes: 200
+Average period count: 36.515
+Score: 7303 7303
+
+Encounter between GENETIC 2 and NET_NICE
+Number of episodes: 200
+Average period count: 36.56
+Score: 7312 7312
+
+Encounter between GENETIC 2 and GENETIC 1
+Number of episodes: 200
+Average period count: 40.125
+Score: 8025 8025
+
+Encounter between GENETIC 2 and GENETIC 2
+Number of episodes: 200
+Average period count: 36.395
+Score: 7279 7279
+
+*** End of round robin ***
+1 GENETIC 2 157964
+2 GENETIC 1 155798
+3 NET_NICE 154366
+4 TFT 152908
+5 CTFT 151911
+6 PAVLOV 138960
+7 ALLC 138312
+8 GRIM 138265
+9 RAND 87081
+10 TFTT 80474
+11 ALLD 73638
+12 STFT 69418
+

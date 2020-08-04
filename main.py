@@ -1,6 +1,6 @@
 from strategies.classics import *
 from strategies.genetic import GENETIC
-from strategies.genetic_config import  NUM_GENERATIONS, GENERATION_SIZE, HISTORY_LEN, CROSSOVER_RATE
+from strategies.genetic_config import  NUM_GENERATIONS, GENERATION_SIZE, HISTORY_LEN, CROSSOVER_RATE, MIN_HISTORY_LEN, MAX_HISTORY_LEN
 from tourney_config import LAMBDA, EPISODES, T, R, P, S
 
 print("Genetic Config:")
@@ -127,19 +127,39 @@ def genetic_evolution(classics, genetics, debug=False):
             print()
             print("Sorted:")
             print_rankings(genetics)
-
-        genetics = new_generation(genetics)
+        
+        if generation_count < NUM_GENERATIONS - 1:
+            genetics = new_generation(genetics)
     
-    # Print results
-    strategies = classics
-    count = 1
-    for agent in genetics:
-        print("*** GENETIC", count, "***\n")
-        print("Chromosome:", agent.chromosome, "\n")
-        strategies.append(agent)
-        round_robin(strategies)
-        strategies.pop()
-        count += 1
+    if debug:
+        # Print results
+        strategies = classics
+        count = 1
+        for agent in genetics:
+            print("*** GENETIC", count, "***\n")
+            print("Chromosome:", agent.chromosome, "\n")
+            strategies.append(agent)
+            round_robin(strategies)
+            strategies.pop()
+            count += 1
+
+    return sorted(genetics, key=lambda agent: -1 * agent.score)
+
+def cultural_evolution(classics, debug=False):
+    if debug:
+        print("Beginning cultural evolution\n")
+
+    for history_len in range(MIN_HISTORY_LEN, MAX_HISTORY_LEN + 1):
+        genetics = [GENETIC(history_len) for _ in range(GENERATION_SIZE)]
+        genetics = genetic_evolution(classics, genetics)
+        assert(len(genetics) == GENERATION_SIZE)
+        assert(genetics[0].score >= genetics[-1].score)
+        classics.append(genetics[0])
+        classics[-1].name = "GENETIC " + str(history_len)
+    
+    if debug:
+        print("End of cultural evolution\n")
+        round_robin(classics, debug=True)
 
 #round_robin(classics, debug=True)
-genetic_evolution(classics, genetics, debug=True)
+cultural_evolution(classics, debug=True)
