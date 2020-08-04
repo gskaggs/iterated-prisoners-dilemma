@@ -154,11 +154,13 @@ def cultural_evolution(classics, debug=False):
         genetics = genetic_evolution(classics, genetics)
         assert(len(genetics) == GENERATION_SIZE)
         assert(genetics[0].score >= genetics[-1].score)
-        classics.append(genetics[0])
-        classics[-1].name = "GENETIC " + str(history_len)
+        best_genetic_strategy = genetics[0]
+        print(history_len, best_genetic_strategy.chromosome)
+        classics.append(best_genetic_strategy)
+        best_genetic_strategy.name = "GENETIC " + str(history_len)
     
     if debug:
-        print("End of cultural evolution\n")
+        print("\nEnd of cultural evolution\n")
         round_robin(classics, debug=True)
 
 #round_robin(classics, debug=True)

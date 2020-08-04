@@ -1,0 +1,1314 @@
+Genetic Config:
+Number of generations: 2 | Generation size: 5 | Crossover rate: 0.6 | History length 2
+
+Tournanment Config:
+LAMBDA: 0.999 | Episodes: 200 | T R P S: 2 1 0 -1
+
+Beginning cultural evolution
+
+1 ['D', 'D', 'C', 'C']
+2 ['C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C']
+3 ['C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C']
+4 ['C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D']
+5 ['C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D']
+6 ['C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'D', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'C', 'D', 'C', 'D', 'C', 'D', 'D', 'D', 'C', 'C', 'C', 'C', 'D', 'C', 'C', 'C', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'C', 'C', 'C', 'D', 'D', 'D', 'C', 'D', 'C', 'C', 'D', 'C', 'C', 'D', 'D', 'D', 'D', 'C', 'C', 'D', 'C']
+End of cultural evolution
+
+Encounter between ALLC and ALLC
+Number of episodes: 200
+Average period count: 39.865
+Score: 7973 7973
+
+Encounter between ALLC and ALLD
+Number of episodes: 200
+Average period count: 38.42
+Score: -7684 15368
+
+Encounter between ALLC and RAND
+Number of episodes: 200
+Average period count: 38.12
+Score: 76 11398
+
+Encounter between ALLC and GRIM
+Number of episodes: 200
+Average period count: 40.255
+Score: 8051 8051
+
+Encounter between ALLC and TFT
+Number of episodes: 200
+Average period count: 42.415
+Score: 8483 8483
+
+Encounter between ALLC and CTFT
+Number of episodes: 200
+Average period count: 39.28
+Score: 7856 7856
+
+Encounter between ALLC and STFT
+Number of episodes: 200
+Average period count: 39.355
+Score: 7869 7872
+
+Encounter between ALLC and TFTT
+Number of episodes: 200
+Average period count: 36.81
+Score: 7360 7363
+
+Encounter between ALLC and PAVLOV
+Number of episodes: 200
+Average period count: 36.39
+Score: 7278 7278
+
+Encounter between ALLC and NET_NICE
+Number of episodes: 200
+Average period count: 39.115
+Score: 7823 7823
+
+Encounter between ALLC and GENETIC 1
+Number of episodes: 200
+Average period count: 40.025
+Score: -8005 16010
+
+Encounter between ALLC and GENETIC 2
+Number of episodes: 200
+Average period count: 38.49
+Score: 7698 7698
+
+Encounter between ALLC and GENETIC 3
+Number of episodes: 200
+Average period count: 38.055
+Score: 7611 7611
+
+Encounter between ALLC and GENETIC 4
+Number of episodes: 200
+Average period count: 38.375
+Score: 7675 7675
+
+Encounter between ALLC and GENETIC 5
+Number of episodes: 200
+Average period count: 36.605
+Score: 7321 7321
+
+Encounter between ALLC and GENETIC 6
+Number of episodes: 200
+Average period count: 40.195
+Score: 8039 8039
+
+Encounter between ALLD and ALLC
+Number of episodes: 200
+Average period count: 37.545
+Score: 15018 -7509
+
+Encounter between ALLD and ALLD
+Number of episodes: 200
+Average period count: 37.575
+Score: 0 0
+
+Encounter between ALLD and RAND
+Number of episodes: 200
+Average period count: 35.55
+Score: 7090 -3545
+
+Encounter between ALLD and GRIM
+Number of episodes: 200
+Average period count: 36.83
+Score: 2 -1
+
+Encounter between ALLD and TFT
+Number of episodes: 200
+Average period count: 37.7
+Score: 2 -1
+
+Encounter between ALLD and CTFT
+Number of episodes: 200
+Average period count: 38.92
+Score: 2 -1
+
+Encounter between ALLD and STFT
+Number of episodes: 200
+Average period count: 38.555
+Score: 0 0
+
+Encounter between ALLD and TFTT
+Number of episodes: 200
+Average period count: 41.065
+Score: 0 0
+
+Encounter between ALLD and PAVLOV
+Number of episodes: 200
+Average period count: 37.68
+Score: 7536 -3768
+
+Encounter between ALLD and NET_NICE
+Number of episodes: 200
+Average period count: 37.76
+Score: 2 -1
+
+Encounter between ALLD and GENETIC 1
+Number of episodes: 200
+Average period count: 37.975
+Score: 15188 -7594
+
+Encounter between ALLD and GENETIC 2
+Number of episodes: 200
+Average period count: 39.835
+Score: 5312 -2656
+
+Encounter between ALLD and GENETIC 3
+Number of episodes: 200
+Average period count: 38.165
+Score: 15260 -7630
+
+Encounter between ALLD and GENETIC 4
+Number of episodes: 200
+Average period count: 35.495
+Score: 9464 -4732
+
+Encounter between ALLD and GENETIC 5
+Number of episodes: 200
+Average period count: 35.905
+Score: 8210 -4105
+
+Encounter between ALLD and GENETIC 6
+Number of episodes: 200
+Average period count: 41.68
+Score: 3336 -1668
+
+Encounter between RAND and ALLC
+Number of episodes: 200
+Average period count: 37.04
+Score: 11119 -14
+
+Encounter between RAND and ALLD
+Number of episodes: 200
+Average period count: 38.205
+Score: -3769 7538
+
+Encounter between RAND and RAND
+Number of episodes: 200
+Average period count: 37.52
+Score: 3759 3720
+
+Encounter between RAND and GRIM
+Number of episodes: 200
+Average period count: 36.0
+Score: -3641 7288
+
+Encounter between RAND and TFT
+Number of episodes: 200
+Average period count: 38.635
+Score: 3869 3869
+
+Encounter between RAND and CTFT
+Number of episodes: 200
+Average period count: 40.12
+Score: 4020 4017
+
+Encounter between RAND and STFT
+Number of episodes: 200
+Average period count: 39.405
+Score: 3930 3930
+
+Encounter between RAND and TFTT
+Number of episodes: 200
+Average period count: 37.94
+Score: 7612 1891
+
+Encounter between RAND and PAVLOV
+Number of episodes: 200
+Average period count: 39.34
+Score: 3901 3988
+
+Encounter between RAND and NET_NICE
+Number of episodes: 200
+Average period count: 35.72
+Score: 3616 3613
+
+Encounter between RAND and GENETIC 1
+Number of episodes: 200
+Average period count: 38.75
+Score: 3692 4058
+
+Encounter between RAND and GENETIC 2
+Number of episodes: 200
+Average period count: 40.295
+Score: 2907 4503
+
+Encounter between RAND and GENETIC 3
+Number of episodes: 200
+Average period count: 37.745
+Score: 4254 3594
+
+Encounter between RAND and GENETIC 4
+Number of episodes: 200
+Average period count: 40.975
+Score: 3804 4212
+
+Encounter between RAND and GENETIC 5
+Number of episodes: 200
+Average period count: 39.325
+Score: 4225 3643
+
+Encounter between RAND and GENETIC 6
+Number of episodes: 200
+Average period count: 38.795
+Score: 3567 4176
+
+Encounter between GRIM and ALLC
+Number of episodes: 200
+Average period count: 39.11
+Score: 7822 7822
+
+Encounter between GRIM and ALLD
+Number of episodes: 200
+Average period count: 41.44
+Score: -1 2
+
+Encounter between GRIM and RAND
+Number of episodes: 200
+Average period count: 39.69
+Score: 7907 -3952
+
+Encounter between GRIM and GRIM
+Number of episodes: 200
+Average period count: 39.125
+Score: 7825 7825
+
+Encounter between GRIM and TFT
+Number of episodes: 200
+Average period count: 35.91
+Score: 7182 7182
+
+Encounter between GRIM and CTFT
+Number of episodes: 200
+Average period count: 36.31
+Score: 7262 7262
+
+Encounter between GRIM and STFT
+Number of episodes: 200
+Average period count: 38.855
+Score: 1 1
+
+Encounter between GRIM and TFTT
+Number of episodes: 200
+Average period count: 37.88
+Score: 3 0
+
+Encounter between GRIM and PAVLOV
+Number of episodes: 200
+Average period count: 37.81
+Score: 7562 7562
+
+Encounter between GRIM and NET_NICE
+Number of episodes: 200
+Average period count: 40.33
+Score: 8066 8066
+
+Encounter between GRIM and GENETIC 1
+Number of episodes: 200
+Average period count: 37.95
+Score: 15175 -7586
+
+Encounter between GRIM and GENETIC 2
+Number of episodes: 200
+Average period count: 38.68
+Score: 7736 7736
+
+Encounter between GRIM and GENETIC 3
+Number of episodes: 200
+Average period count: 36.07
+Score: 7214 7214
+
+Encounter between GRIM and GENETIC 4
+Number of episodes: 200
+Average period count: 39.2
+Score: 7840 7840
+
+Encounter between GRIM and GENETIC 5
+Number of episodes: 200
+Average period count: 37.26
+Score: 7452 7452
+
+Encounter between GRIM and GENETIC 6
+Number of episodes: 200
+Average period count: 39.26
+Score: 7852 7852
+
+Encounter between TFT and ALLC
+Number of episodes: 200
+Average period count: 37.835
+Score: 7567 7567
+
+Encounter between TFT and ALLD
+Number of episodes: 200
+Average period count: 37.91
+Score: -1 2
+
+Encounter between TFT and RAND
+Number of episodes: 200
+Average period count: 37.485
+Score: 3742 3745
+
+Encounter between TFT and GRIM
+Number of episodes: 200
+Average period count: 37.035
+Score: 7407 7407
+
+Encounter between TFT and TFT
+Number of episodes: 200
+Average period count: 38.425
+Score: 7685 7685
+
+Encounter between TFT and CTFT
+Number of episodes: 200
+Average period count: 40.36
+Score: 8072 8072
+
+Encounter between TFT and STFT
+Number of episodes: 200
+Average period count: 38.295
+Score: 3828 3831
+
+Encounter between TFT and TFTT
+Number of episodes: 200
+Average period count: 36.91
+Score: 7381 7381
+
+Encounter between TFT and PAVLOV
+Number of episodes: 200
+Average period count: 37.925
+Score: 7585 7585
+
+Encounter between TFT and NET_NICE
+Number of episodes: 200
+Average period count: 40.69
+Score: 8138 8138
+
+Encounter between TFT and GENETIC 1
+Number of episodes: 200
+Average period count: 38.555
+Score: 3855 3855
+
+Encounter between TFT and GENETIC 2
+Number of episodes: 200
+Average period count: 38.785
+Score: 7757 7757
+
+Encounter between TFT and GENETIC 3
+Number of episodes: 200
+Average period count: 38.725
+Score: 7745 7745
+
+Encounter between TFT and GENETIC 4
+Number of episodes: 200
+Average period count: 40.815
+Score: 8163 8163
+
+Encounter between TFT and GENETIC 5
+Number of episodes: 200
+Average period count: 38.57
+Score: 7714 7714
+
+Encounter between TFT and GENETIC 6
+Number of episodes: 200
+Average period count: 40.555
+Score: 8111 8111
+
+Encounter between CTFT and ALLC
+Number of episodes: 200
+Average period count: 35.79
+Score: 7158 7158
+
+Encounter between CTFT and ALLD
+Number of episodes: 200
+Average period count: 35.24
+Score: -1 2
+
+Encounter between CTFT and RAND
+Number of episodes: 200
+Average period count: 40.415
+Score: 3982 3985
+
+Encounter between CTFT and GRIM
+Number of episodes: 200
+Average period count: 41.235
+Score: 8247 8247
+
+Encounter between CTFT and TFT
+Number of episodes: 200
+Average period count: 39.94
+Score: 7988 7988
+
+Encounter between CTFT and CTFT
+Number of episodes: 200
+Average period count: 39.115
+Score: 7823 7823
+
+Encounter between CTFT and STFT
+Number of episodes: 200
+Average period count: 38.44
+Score: 3844 3844
+
+Encounter between CTFT and TFTT
+Number of episodes: 200
+Average period count: 38.85
+Score: 7769 7769
+
+Encounter between CTFT and PAVLOV
+Number of episodes: 200
+Average period count: 40.055
+Score: 8011 8011
+
+Encounter between CTFT and NET_NICE
+Number of episodes: 200
+Average period count: 39.33
+Score: 7866 7866
+
+Encounter between CTFT and GENETIC 1
+Number of episodes: 200
+Average period count: 38.635
+Score: 3863 3863
+
+Encounter between CTFT and GENETIC 2
+Number of episodes: 200
+Average period count: 39.925
+Score: 7985 7985
+
+Encounter between CTFT and GENETIC 3
+Number of episodes: 200
+Average period count: 35.765
+Score: 7153 7153
+
+Encounter between CTFT and GENETIC 4
+Number of episodes: 200
+Average period count: 38.77
+Score: 7754 7754
+
+Encounter between CTFT and GENETIC 5
+Number of episodes: 200
+Average period count: 37.79
+Score: 7558 7558
+
+Encounter between CTFT and GENETIC 6
+Number of episodes: 200
+Average period count: 37.81
+Score: 7562 7562
+
+Encounter between STFT and ALLC
+Number of episodes: 200
+Average period count: 38.885
+Score: 7778 7775
+
+Encounter between STFT and ALLD
+Number of episodes: 200
+Average period count: 38.07
+Score: 0 0
+
+Encounter between STFT and RAND
+Number of episodes: 200
+Average period count: 38.22
+Score: 3804 3804
+
+Encounter between STFT and GRIM
+Number of episodes: 200
+Average period count: 38.805
+Score: 1 1
+
+Encounter between STFT and TFT
+Number of episodes: 200
+Average period count: 38.955
+Score: 3897 3894
+
+Encounter between STFT and CTFT
+Number of episodes: 200
+Average period count: 36.71
+Score: 3671 3671
+
+Encounter between STFT and STFT
+Number of episodes: 200
+Average period count: 41.045
+Score: 0 0
+
+Encounter between STFT and TFTT
+Number of episodes: 200
+Average period count: 40.19
+Score: 0 0
+
+Encounter between STFT and PAVLOV
+Number of episodes: 200
+Average period count: 40.365
+Score: 2691 2691
+
+Encounter between STFT and NET_NICE
+Number of episodes: 200
+Average period count: 41.025
+Score: 4104 4101
+
+Encounter between STFT and GENETIC 1
+Number of episodes: 200
+Average period count: 38.365
+Score: 3836 3836
+
+Encounter between STFT and GENETIC 2
+Number of episodes: 200
+Average period count: 37.125
+Score: 2475 2475
+
+Encounter between STFT and GENETIC 3
+Number of episodes: 200
+Average period count: 42.33
+Score: 4619 4616
+
+Encounter between STFT and GENETIC 4
+Number of episodes: 200
+Average period count: 37.98
+Score: 4091 4091
+
+Encounter between STFT and GENETIC 5
+Number of episodes: 200
+Average period count: 40.735
+Score: 5093 5090
+
+Encounter between STFT and GENETIC 6
+Number of episodes: 200
+Average period count: 39.005
+Score: 3900 3900
+
+Encounter between TFTT and ALLC
+Number of episodes: 200
+Average period count: 37.245
+Score: 7450 7447
+
+Encounter between TFTT and ALLD
+Number of episodes: 200
+Average period count: 36.985
+Score: 0 0
+
+Encounter between TFTT and RAND
+Number of episodes: 200
+Average period count: 39.07
+Score: 2026 7846
+
+Encounter between TFTT and GRIM
+Number of episodes: 200
+Average period count: 40.72
+Score: 0 3
+
+Encounter between TFTT and TFT
+Number of episodes: 200
+Average period count: 38.505
+Score: 7700 7700
+
+Encounter between TFTT and CTFT
+Number of episodes: 200
+Average period count: 36.27
+Score: 7253 7253
+
+Encounter between TFTT and STFT
+Number of episodes: 200
+Average period count: 37.445
+Score: 0 0
+
+Encounter between TFTT and TFTT
+Number of episodes: 200
+Average period count: 37.275
+Score: 0 0
+
+Encounter between TFTT and PAVLOV
+Number of episodes: 200
+Average period count: 38.77
+Score: 1 5815
+
+Encounter between TFTT and NET_NICE
+Number of episodes: 200
+Average period count: 39.07
+Score: 7813 7813
+
+Encounter between TFTT and GENETIC 1
+Number of episodes: 200
+Average period count: 40.625
+Score: 1625 6500
+
+Encounter between TFTT and GENETIC 2
+Number of episodes: 200
+Average period count: 35.8
+Score: 1 7159
+
+Encounter between TFTT and GENETIC 3
+Number of episodes: 200
+Average period count: 37.31
+Score: 4 11185
+
+Encounter between TFTT and GENETIC 4
+Number of episodes: 200
+Average period count: 39.085
+Score: 3128 7817
+
+Encounter between TFTT and GENETIC 5
+Number of episodes: 200
+Average period count: 39.4
+Score: 1433 6806
+
+Encounter between TFTT and GENETIC 6
+Number of episodes: 200
+Average period count: 36.63
+Score: 2000 7991
+
+Encounter between PAVLOV and ALLC
+Number of episodes: 200
+Average period count: 36.21
+Score: 7242 7242
+
+Encounter between PAVLOV and ALLD
+Number of episodes: 200
+Average period count: 35.395
+Score: -3540 7080
+
+Encounter between PAVLOV and RAND
+Number of episodes: 200
+Average period count: 38.745
+Score: 3850 3862
+
+Encounter between PAVLOV and GRIM
+Number of episodes: 200
+Average period count: 38.17
+Score: 7634 7634
+
+Encounter between PAVLOV and TFT
+Number of episodes: 200
+Average period count: 38.915
+Score: 7783 7783
+
+Encounter between PAVLOV and CTFT
+Number of episodes: 200
+Average period count: 38.075
+Score: 7615 7615
+
+Encounter between PAVLOV and STFT
+Number of episodes: 200
+Average period count: 38.975
+Score: 2597 2600
+
+Encounter between PAVLOV and TFTT
+Number of episodes: 200
+Average period count: 38.315
+Score: 5748 0
+
+Encounter between PAVLOV and PAVLOV
+Number of episodes: 200
+Average period count: 37.355
+Score: 7471 7471
+
+Encounter between PAVLOV and NET_NICE
+Number of episodes: 200
+Average period count: 40.65
+Score: 8130 8130
+
+Encounter between PAVLOV and GENETIC 1
+Number of episodes: 200
+Average period count: 35.395
+Score: -1 7079
+
+Encounter between PAVLOV and GENETIC 2
+Number of episodes: 200
+Average period count: 40.505
+Score: 8101 8101
+
+Encounter between PAVLOV and GENETIC 3
+Number of episodes: 200
+Average period count: 37.475
+Score: 7495 7495
+
+Encounter between PAVLOV and GENETIC 4
+Number of episodes: 200
+Average period count: 38.33
+Score: 7666 7666
+
+Encounter between PAVLOV and GENETIC 5
+Number of episodes: 200
+Average period count: 38.14
+Score: 7628 7628
+
+Encounter between PAVLOV and GENETIC 6
+Number of episodes: 200
+Average period count: 39.535
+Score: 7907 7907
+
+Encounter between NET_NICE and ALLC
+Number of episodes: 200
+Average period count: 38.04
+Score: 7608 7608
+
+Encounter between NET_NICE and ALLD
+Number of episodes: 200
+Average period count: 40.165
+Score: -1 2
+
+Encounter between NET_NICE and RAND
+Number of episodes: 200
+Average period count: 40.415
+Score: 4001 4001
+
+Encounter between NET_NICE and GRIM
+Number of episodes: 200
+Average period count: 40.68
+Score: 8136 8136
+
+Encounter between NET_NICE and TFT
+Number of episodes: 200
+Average period count: 36.29
+Score: 7258 7258
+
+Encounter between NET_NICE and CTFT
+Number of episodes: 200
+Average period count: 39.955
+Score: 7991 7991
+
+Encounter between NET_NICE and STFT
+Number of episodes: 200
+Average period count: 39.955
+Score: 3994 3997
+
+Encounter between NET_NICE and TFTT
+Number of episodes: 200
+Average period count: 40.55
+Score: 8109 8109
+
+Encounter between NET_NICE and PAVLOV
+Number of episodes: 200
+Average period count: 36.565
+Score: 7313 7313
+
+Encounter between NET_NICE and NET_NICE
+Number of episodes: 200
+Average period count: 39.14
+Score: 7828 7828
+
+Encounter between NET_NICE and GENETIC 1
+Number of episodes: 200
+Average period count: 39.67
+Score: 3965 3968
+
+Encounter between NET_NICE and GENETIC 2
+Number of episodes: 200
+Average period count: 38.09
+Score: 7618 7618
+
+Encounter between NET_NICE and GENETIC 3
+Number of episodes: 200
+Average period count: 37.29
+Score: 7458 7458
+
+Encounter between NET_NICE and GENETIC 4
+Number of episodes: 200
+Average period count: 38.975
+Score: 7795 7795
+
+Encounter between NET_NICE and GENETIC 5
+Number of episodes: 200
+Average period count: 35.82
+Score: 7164 7164
+
+Encounter between NET_NICE and GENETIC 6
+Number of episodes: 200
+Average period count: 37.04
+Score: 7408 7408
+
+Encounter between GENETIC 1 and ALLC
+Number of episodes: 200
+Average period count: 41.9
+Score: 16760 -8380
+
+Encounter between GENETIC 1 and ALLD
+Number of episodes: 200
+Average period count: 39.805
+Score: -7960 15920
+
+Encounter between GENETIC 1 and RAND
+Number of episodes: 200
+Average period count: 40.11
+Score: 4264 3757
+
+Encounter between GENETIC 1 and GRIM
+Number of episodes: 200
+Average period count: 38.29
+Score: -7654 15311
+
+Encounter between GENETIC 1 and TFT
+Number of episodes: 200
+Average period count: 37.465
+Score: 3748 3745
+
+Encounter between GENETIC 1 and CTFT
+Number of episodes: 200
+Average period count: 37.17
+Score: 3718 3715
+
+Encounter between GENETIC 1 and STFT
+Number of episodes: 200
+Average period count: 40.285
+Score: 4028 4028
+
+Encounter between GENETIC 1 and TFTT
+Number of episodes: 200
+Average period count: 39.2
+Score: 6272 1568
+
+Encounter between GENETIC 1 and PAVLOV
+Number of episodes: 200
+Average period count: 35.605
+Score: 7121 -1
+
+Encounter between GENETIC 1 and NET_NICE
+Number of episodes: 200
+Average period count: 36.81
+Score: 3682 3679
+
+Encounter between GENETIC 1 and GENETIC 1
+Number of episodes: 200
+Average period count: 41.535
+Score: 4153 4153
+
+Encounter between GENETIC 1 and GENETIC 2
+Number of episodes: 200
+Average period count: 38.755
+Score: 2 7748
+
+Encounter between GENETIC 1 and GENETIC 3
+Number of episodes: 200
+Average period count: 37.78
+Score: 3781 3775
+
+Encounter between GENETIC 1 and GENETIC 4
+Number of episodes: 200
+Average period count: 41.04
+Score: 4 8203
+
+Encounter between GENETIC 1 and GENETIC 5
+Number of episodes: 200
+Average period count: 39.075
+Score: -7796 15610
+
+Encounter between GENETIC 1 and GENETIC 6
+Number of episodes: 200
+Average period count: 38.54
+Score: 6743 965
+
+Encounter between GENETIC 2 and ALLC
+Number of episodes: 200
+Average period count: 38.16
+Score: 7632 7632
+
+Encounter between GENETIC 2 and ALLD
+Number of episodes: 200
+Average period count: 39.715
+Score: -2648 5296
+
+Encounter between GENETIC 2 and RAND
+Number of episodes: 200
+Average period count: 39.79
+Score: 4586 2870
+
+Encounter between GENETIC 2 and GRIM
+Number of episodes: 200
+Average period count: 40.175
+Score: 8035 8035
+
+Encounter between GENETIC 2 and TFT
+Number of episodes: 200
+Average period count: 39.455
+Score: 7891 7891
+
+Encounter between GENETIC 2 and CTFT
+Number of episodes: 200
+Average period count: 41.365
+Score: 8273 8273
+
+Encounter between GENETIC 2 and STFT
+Number of episodes: 200
+Average period count: 38.57
+Score: 2570 2573
+
+Encounter between GENETIC 2 and TFTT
+Number of episodes: 200
+Average period count: 37.255
+Score: 7450 1
+
+Encounter between GENETIC 2 and PAVLOV
+Number of episodes: 200
+Average period count: 40.715
+Score: 8143 8143
+
+Encounter between GENETIC 2 and NET_NICE
+Number of episodes: 200
+Average period count: 39.345
+Score: 7869 7869
+
+Encounter between GENETIC 2 and GENETIC 1
+Number of episodes: 200
+Average period count: 40.43
+Score: 8084 2
+
+Encounter between GENETIC 2 and GENETIC 2
+Number of episodes: 200
+Average period count: 39.25
+Score: 7850 7850
+
+Encounter between GENETIC 2 and GENETIC 3
+Number of episodes: 200
+Average period count: 41.815
+Score: 8363 8363
+
+Encounter between GENETIC 2 and GENETIC 4
+Number of episodes: 200
+Average period count: 36.775
+Score: 7355 7355
+
+Encounter between GENETIC 2 and GENETIC 5
+Number of episodes: 200
+Average period count: 35.88
+Score: 7176 7176
+
+Encounter between GENETIC 2 and GENETIC 6
+Number of episodes: 200
+Average period count: 37.055
+Score: 7411 7411
+
+Encounter between GENETIC 3 and ALLC
+Number of episodes: 200
+Average period count: 36.29
+Score: 7258 7258
+
+Encounter between GENETIC 3 and ALLD
+Number of episodes: 200
+Average period count: 36.605
+Score: -7318 14636
+
+Encounter between GENETIC 3 and RAND
+Number of episodes: 200
+Average period count: 37.405
+Score: 3514 4255
+
+Encounter between GENETIC 3 and GRIM
+Number of episodes: 200
+Average period count: 39.445
+Score: 7889 7889
+
+Encounter between GENETIC 3 and TFT
+Number of episodes: 200
+Average period count: 39.63
+Score: 7926 7926
+
+Encounter between GENETIC 3 and CTFT
+Number of episodes: 200
+Average period count: 39.055
+Score: 7811 7811
+
+Encounter between GENETIC 3 and STFT
+Number of episodes: 200
+Average period count: 36.815
+Score: 4017 4017
+
+Encounter between GENETIC 3 and TFTT
+Number of episodes: 200
+Average period count: 39.73
+Score: 11911 4
+
+Encounter between GENETIC 3 and PAVLOV
+Number of episodes: 200
+Average period count: 38.755
+Score: 7751 7751
+
+Encounter between GENETIC 3 and NET_NICE
+Number of episodes: 200
+Average period count: 39.63
+Score: 7926 7926
+
+Encounter between GENETIC 3 and GENETIC 1
+Number of episodes: 200
+Average period count: 38.14
+Score: 3811 3817
+
+Encounter between GENETIC 3 and GENETIC 2
+Number of episodes: 200
+Average period count: 38.97
+Score: 7794 7794
+
+Encounter between GENETIC 3 and GENETIC 3
+Number of episodes: 200
+Average period count: 39.87
+Score: 7974 7974
+
+Encounter between GENETIC 3 and GENETIC 4
+Number of episodes: 200
+Average period count: 38.845
+Score: 7769 7769
+
+Encounter between GENETIC 3 and GENETIC 5
+Number of episodes: 200
+Average period count: 40.055
+Score: 8011 8011
+
+Encounter between GENETIC 3 and GENETIC 6
+Number of episodes: 200
+Average period count: 39.425
+Score: 7885 7885
+
+Encounter between GENETIC 4 and ALLC
+Number of episodes: 200
+Average period count: 37.32
+Score: 7464 7464
+
+Encounter between GENETIC 4 and ALLD
+Number of episodes: 200
+Average period count: 36.605
+Score: -4880 9760
+
+Encounter between GENETIC 4 and RAND
+Number of episodes: 200
+Average period count: 38.525
+Score: 3990 3609
+
+Encounter between GENETIC 4 and GRIM
+Number of episodes: 200
+Average period count: 38.045
+Score: 7609 7609
+
+Encounter between GENETIC 4 and TFT
+Number of episodes: 200
+Average period count: 37.915
+Score: 7583 7583
+
+Encounter between GENETIC 4 and CTFT
+Number of episodes: 200
+Average period count: 38.405
+Score: 7681 7681
+
+Encounter between GENETIC 4 and STFT
+Number of episodes: 200
+Average period count: 37.775
+Score: 4067 4070
+
+Encounter between GENETIC 4 and TFTT
+Number of episodes: 200
+Average period count: 36.37
+Score: 7273 2911
+
+Encounter between GENETIC 4 and PAVLOV
+Number of episodes: 200
+Average period count: 37.75
+Score: 7550 7550
+
+Encounter between GENETIC 4 and NET_NICE
+Number of episodes: 200
+Average period count: 38.395
+Score: 7679 7679
+
+Encounter between GENETIC 4 and GENETIC 1
+Number of episodes: 200
+Average period count: 40.24
+Score: 8044 4
+
+Encounter between GENETIC 4 and GENETIC 2
+Number of episodes: 200
+Average period count: 36.965
+Score: 7393 7393
+
+Encounter between GENETIC 4 and GENETIC 3
+Number of episodes: 200
+Average period count: 38.795
+Score: 7759 7759
+
+Encounter between GENETIC 4 and GENETIC 4
+Number of episodes: 200
+Average period count: 36.775
+Score: 7355 7355
+
+Encounter between GENETIC 4 and GENETIC 5
+Number of episodes: 200
+Average period count: 36.74
+Score: 7348 7348
+
+Encounter between GENETIC 4 and GENETIC 6
+Number of episodes: 200
+Average period count: 39.22
+Score: 7844 7844
+
+Encounter between GENETIC 5 and ALLC
+Number of episodes: 200
+Average period count: 37.47
+Score: 7494 7494
+
+Encounter between GENETIC 5 and ALLD
+Number of episodes: 200
+Average period count: 38.215
+Score: -4369 8738
+
+Encounter between GENETIC 5 and RAND
+Number of episodes: 200
+Average period count: 40.07
+Score: 3807 4284
+
+Encounter between GENETIC 5 and GRIM
+Number of episodes: 200
+Average period count: 38.955
+Score: 7791 7791
+
+Encounter between GENETIC 5 and TFT
+Number of episodes: 200
+Average period count: 39.16
+Score: 7832 7832
+
+Encounter between GENETIC 5 and CTFT
+Number of episodes: 200
+Average period count: 38.48
+Score: 7696 7696
+
+Encounter between GENETIC 5 and STFT
+Number of episodes: 200
+Average period count: 36.865
+Score: 4607 4607
+
+Encounter between GENETIC 5 and TFTT
+Number of episodes: 200
+Average period count: 41.17
+Score: 7110 1500
+
+Encounter between GENETIC 5 and PAVLOV
+Number of episodes: 200
+Average period count: 39.5
+Score: 7900 7900
+
+Encounter between GENETIC 5 and NET_NICE
+Number of episodes: 200
+Average period count: 40.96
+Score: 8192 8192
+
+Encounter between GENETIC 5 and GENETIC 1
+Number of episodes: 200
+Average period count: 36.915
+Score: 14746 -7364
+
+Encounter between GENETIC 5 and GENETIC 2
+Number of episodes: 200
+Average period count: 38.375
+Score: 7675 7675
+
+Encounter between GENETIC 5 and GENETIC 3
+Number of episodes: 200
+Average period count: 40.525
+Score: 8105 8105
+
+Encounter between GENETIC 5 and GENETIC 4
+Number of episodes: 200
+Average period count: 36.775
+Score: 7355 7355
+
+Encounter between GENETIC 5 and GENETIC 5
+Number of episodes: 200
+Average period count: 38.985
+Score: 7797 7797
+
+Encounter between GENETIC 5 and GENETIC 6
+Number of episodes: 200
+Average period count: 40.605
+Score: 8121 8121
+
+Encounter between GENETIC 6 and ALLC
+Number of episodes: 200
+Average period count: 37.345
+Score: 7469 7469
+
+Encounter between GENETIC 6 and ALLD
+Number of episodes: 200
+Average period count: 38.64
+Score: -1546 3092
+
+Encounter between GENETIC 6 and RAND
+Number of episodes: 200
+Average period count: 37.925
+Score: 3901 3505
+
+Encounter between GENETIC 6 and GRIM
+Number of episodes: 200
+Average period count: 38.965
+Score: 7793 7793
+
+Encounter between GENETIC 6 and TFT
+Number of episodes: 200
+Average period count: 38.52
+Score: 7704 7704
+
+Encounter between GENETIC 6 and CTFT
+Number of episodes: 200
+Average period count: 39.325
+Score: 7865 7865
+
+Encounter between GENETIC 6 and STFT
+Number of episodes: 200
+Average period count: 37.87
+Score: 3786 3786
+
+Encounter between GENETIC 6 and TFTT
+Number of episodes: 200
+Average period count: 37.33
+Score: 8144 2039
+
+Encounter between GENETIC 6 and PAVLOV
+Number of episodes: 200
+Average period count: 37.855
+Score: 7571 7571
+
+Encounter between GENETIC 6 and NET_NICE
+Number of episodes: 200
+Average period count: 41.655
+Score: 8331 8331
+
+Encounter between GENETIC 6 and GENETIC 1
+Number of episodes: 200
+Average period count: 38.105
+Score: 954 6666
+
+Encounter between GENETIC 6 and GENETIC 2
+Number of episodes: 200
+Average period count: 39.91
+Score: 7982 7982
+
+Encounter between GENETIC 6 and GENETIC 3
+Number of episodes: 200
+Average period count: 38.29
+Score: 7658 7658
+
+Encounter between GENETIC 6 and GENETIC 4
+Number of episodes: 200
+Average period count: 41.915
+Score: 8383 8383
+
+Encounter between GENETIC 6 and GENETIC 5
+Number of episodes: 200
+Average period count: 39.475
+Score: 7895 7895
+
+Encounter between GENETIC 6 and GENETIC 6
+Number of episodes: 200
+Average period count: 40.16
+Score: 8032 8032
+
+*** End of round robin ***
+1 GENETIC 5 221967
+2 GRIM 215917
+3 GENETIC 2 210858
+4 NET_NICE 210698
+5 TFT 209271
+6 CTFT 209162
+7 GENETIC 4 206460
+8 GENETIC 6 203458
+9 GENETIC 3 202004
+10 PAVLOV 186186
+11 ALLD 173858
+12 ALLC 167430
+13 RAND 114009
+14 STFT 99116
+15 GENETIC 1 82133
+16 TFTT 80970
+
