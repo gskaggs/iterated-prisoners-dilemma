@@ -9,12 +9,6 @@ print("\nTournanment Config:")
 print_tourney_config()
 print()
 
-# Used for both genetic and cultural evolution
-classics = [ALLC(), ALLD(), RAND(), GRIM(), TFT(), CTFT(), STFT(), TFTT(), PAVLOV(), NET_NICE()]
-
-# Used for genetic evolution without cultural evolution
-genetics = [GENETIC(HISTORY_LEN) for _ in range(GENERATION_SIZE)]
-
 def test_fitness(strategies, genetic, debug=False):
     strategies.append(genetic)
     genetic.score = 0
@@ -104,4 +98,13 @@ def cultural_evolution(classics, debug=False):
         print("\nEnd of cultural evolution\n")
         round_robin(classics, debug=True)
 
+# Used for both genetic and cultural evolution
+classics = [ALLC(), ALLD(), RAND(), GRIM(), TFT(), CTFT(), STFT(), TFTT(), PAVLOV(), NET_NICE()]
+
+# Uncomment the following lines to do genetic evolution with a fixed history length:
+# genetics = [GENETIC(HISTORY_LEN) for _ in range(GENERATION_SIZE)]
+# genetic_evolution(classics, genetics, debug=True)
+
+# Otherwise run cultural evolution in which members of several history lengths  
+# compete and learn from each other:
 cultural_evolution(classics, debug=True)
