@@ -46,13 +46,14 @@ def new_generation(strategies):
 
     return result
 
-def genetic_evolution(classics, genetics, debug=False):
+def genetic_evolution(competitors, genetics, debug=False):
     if debug:
         print("Beginning genetic evolution\n")
+
     for generation_count in range(NUM_GENERATIONS):
         for agent in genetics:
             assert(agent.name == "GENETIC")
-            test_fitness(classics, agent)
+            test_fitness(competitors, agent)
         
         if debug:
             print("Generation", generation_count + 1)
@@ -68,7 +69,7 @@ def genetic_evolution(classics, genetics, debug=False):
     
     if debug:
         # Print results
-        strategies = classics
+        strategies = competitors
         count = 1
         for agent in genetics:
             print("*** GENETIC", count, "***\n")
@@ -84,19 +85,23 @@ def cultural_evolution(classics, debug=False):
     if debug:
         print("Beginning cultural evolution\n")
 
+    established_strategies = classics.copy()
+
     for history_len in range(MIN_HISTORY_LEN, MAX_HISTORY_LEN + 1):
         genetics = [GENETIC(history_len) for _ in range(GENERATION_SIZE)]
-        genetics = genetic_evolution(classics, genetics)
+        genetics = genetic_evolution(established_strategies, genetics)
+
         assert(len(genetics) == GENERATION_SIZE)
         assert(genetics[0].score >= genetics[-1].score)
+
         best_genetic_strategy = genetics[0]
-        print(history_len, best_genetic_strategy.chromosome)
-        classics.append(best_genetic_strategy)
         best_genetic_strategy.name = "GENETIC " + str(history_len)
+        print("Best chromosome for history length", history_len, best_genetic_strategy.chromosome)
+        established_strategies.append(best_genetic_strategy)
     
     if debug:
         print("\nEnd of cultural evolution\n")
-        round_robin(classics, debug=True)
+        round_robin(established_strategies, debug=True)
 
 # Used for both genetic and cultural evolution
 classics = [ALLC(), ALLD(), RAND(), GRIM(), TFT(), CTFT(), STFT(), TFTT(), PAVLOV(), NET_NICE()]
