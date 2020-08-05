@@ -4,7 +4,7 @@ My implementation and adaptation of the paper ["Evolution of iterated prisoner's
 
 ### Execution
 
-To most easily view results of the genetic algorithms, I recommend:
+To most easily view output results, I recommend:
 
 `python3 main.py > output.txt`
 
