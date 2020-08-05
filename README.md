@@ -15,5 +15,5 @@ To most easily view output results, I recommend:
 
 ### Related Resources 
 
-- [The Stanford's Encyclapedia of Philosophy's entry on the Prisoner's Delima](https://plato.stanford.edu/entries/prisoner-dilemma/#ZeroDeteStra) thoroughly summarizes developments both before and after Axelrod's original tournament and contains a wealth of references for future enquiry.
+- [The Stanford's Encyclapedia of Philosophy's entry on the Prisoner's Delima](https://plato.stanford.edu/entries/prisoner-dilemma/#PostAxel) thoroughly summarizes developments both before and after Axelrod's original tournament and contains a wealth of references for future enquiry.
 - [The Selfish Gene by Richard Dawkins](https://www.amazon.com/Selfish-Gene-Anniversary-Landmark-Paperback/dp/B0722G5V92/ref=sr_1_2?dchild=1&keywords=The+Selfish+Gene&qid=1591506014&sr=8-2#customerReviews) original sparked my curiosity in evolutionary stable strategies and iterated prisoner's delimma.
