@@ -1,8 +1,8 @@
 # Number of generations for the genetic algorithm
-NUM_GENERATIONS = 2 
+NUM_GENERATIONS = 1500 
 
 # Size of the given generation
-GENERATION_SIZE = 5
+GENERATION_SIZE = 15 
 
 # How frequently crossover is applied
 CROSSOVER_RATE = 0.6
@@ -12,5 +12,5 @@ CROSSOVER_RATE = 0.6
 HISTORY_LEN = 2
 
 # For cultural evolution
-MIN_HISTORY_LEN = 1
-MAX_HISTORY_LEN = 6
+MIN_HISTORY_LEN = 2 
+MAX_HISTORY_LEN = 5 
