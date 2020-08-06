@@ -8,6 +8,10 @@ To most easily view output results, I recommend:
 
 `python3 main.py > output.txt`
 
+To run unit tests on the genetic algorithm:
+
+`python3 test.py`
+
 ### Configuration
 
 - *tourney_config.py* contains values pertinent to each game of iterated prisoner's dilemma.
