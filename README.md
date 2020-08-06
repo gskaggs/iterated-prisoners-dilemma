@@ -4,9 +4,11 @@ My implementation and adaptation of the paper ["Evolution of iterated prisoner's
 
 ### Execution
 
-To most easily view output results, I recommend:
+To easily view experiment results, I recommend:
 
 `python3 main.py > output.txt`
+
+### Testing
 
 To run unit tests on the genetic algorithm:
 
