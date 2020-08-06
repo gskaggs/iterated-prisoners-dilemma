@@ -10,7 +10,7 @@ To most easily view output results, I recommend:
 
 ### Configuration
 
-- *tourney_config.py* contains values pertinent to an individual game of iterated prisoner's delimma.
+- *tourney_config.py* contains values pertinent to each game of iterated prisoner's delimma.
 - *strategies/genetic_config.py* contains values pertinent to the incorporated genetic algorithms.
 
 ### Related Resources 
