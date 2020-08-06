@@ -13,6 +13,10 @@ To most easily view output results, I recommend:
 - *tourney_config.py* contains values pertinent to each game of iterated prisoner's dilemma.
 - *strategies/genetic_config.py* contains values pertinent to the incorporated genetic algorithms.
 
+### Output Archive
+
+The results of my various experiments may be found in the *archive* directory. Files prefixed *round_robin* involve only classical strategies. Files prefixed *genetic_round_robin* and *cultural_evolution* involve genetic and cultural evolution, respectively.
+
 ### Related Resources 
 
 - [The Stanford's Encyclapedia of Philosophy's entry on the Prisoner's Dilemma](https://plato.stanford.edu/entries/prisoner-dilemma/#PostAxel) thoroughly summarizes developments both before and after Axelrod's original tournament and contains a wealth of references for future enquiry.
